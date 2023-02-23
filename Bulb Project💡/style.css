@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+/* BODY CONTENTS */
+
+.body__on{
+    background-color: khaki;
+    position: relative;
+}
+
+.body__off{
+    background-color: rgb(188, 188, 188);
+    position: relative;
+}
+
+.container{
+    justify-content: space-between;
+    display: flex;
+    height: 100vh;
+}
+
+.bulb{
+    position: absolute;
+    margin-left: -4rem;
+}
+
+.wire{
+    width: 0.2rem;
+    height: 7rem;
+    margin-left: 15rem;
+    background-color: black;
+}
+
+.lamp__holder{
+    width: 1rem;
+    height: 1.5rem;
+    background-color: gray;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    margin-left: 14.6rem;
+}
+
+.fluorescent__on{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+    background-color: white;
+    margin-left: 13.6rem;
+    box-shadow: 0 0 1.2rem 0.8rem rgba(250, 250, 250, 1);
+}
+
+.fluorescent__off{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+    background-color: rgb(203, 201, 201);
+    margin-left: 13.6rem;
+    box-shadow: none;
+}
+
+.clock{
+    font-size: 120px;
+    position: absolute;
+    margin-left: 25rem;
+    margin-top: 3rem;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+}
+
+.hero{
+    width: 30rem;
+    height: 30rem;
+    margin: 7rem 0 0 8rem;
+    /* border: solid red;    */
+}
+
+.hero__txt{
+    margin-top: 12rem;
+    background-color: white;
+    margin-right: 4rem;
+    padding: 2.5rem;
+    height: 20rem;
+    border-radius: 3rem;
+    box-shadow: 0 0 1.5rem 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+.hero__txt h1{
+    font-weight: 800;
+    font-size: 42px;
+    margin-bottom: 1.5rem;
+    font-family: cursive;
+    margin-top: -1rem;
+}
+
+.hero__txt p{
+    line-height: 2rem;
+    font-size: 20px;
+}
+
+.toggle{
+    border: solid 0.1rem black;
+    border-radius: 1.8rem;
+    height: 1.8rem;
+    width: 3.8rem;
+    margin-left: 37rem;
+    margin-top: 1.7rem;
+}
+
+.on{
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 1.3rem;
+    background-color: black;
+    margin: 0.16rem 0 0 2.1rem;
+}
+
+.off{
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 1.3rem;
+    background-color: black;
+    margin: 0.16rem 0 0 0.2rem;
+}
